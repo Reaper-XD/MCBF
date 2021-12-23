@@ -143,7 +143,7 @@ def reza_xd():
     print ' (\033[0;96m•\033[0m) ACTIVE USER : %s'%(nama);time.sleep(0.03)
     print ' (\033[0;96m•\033[0m) IP DEVICE   : %s'%(IP)
     print '\033[0;91m___________________________________________________________\033[;0m\n';time.sleep(0.03)
-    print ' [%s1%s]. Dump id dari teman'%(O,O,N);time.sleep(0.03)
+    print ' [%s1%s]. Dump id dari teman'%(O,N);time.sleep(0.03)
     print ' [%s2%s]. Dump id dari teman publik'%(O,N);time.sleep(0.03)
     print ' [%s3%s]. Dump id dari total followers'%(O,N);time.sleep(0.03)
     print ' [%s4%s]. Dump id dari like postingan'%(O,N);time.sleep(0.03)
