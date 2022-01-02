@@ -4,7 +4,7 @@ import marshal, zlib, base64, os, sys
 try:
     r = sys.argv[1]
 except:
-    exit("usage : python2 coba.py file.py")
+    exit("usage : python2 decode.py file.py")
 
 if not os.path.isfile(r):
     exit("File Tidak Ditemukan!")
