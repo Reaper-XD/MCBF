@@ -1,11 +1,11 @@
 # ᴄᴀʀᴀ ʜᴀᴄᴋ ᴀᴋᴜɴ Fᴀᴄᴇʙᴏᴏᴋ
 <pre><code>
-<li><code>$pkg update && pkg upgrade</li></code>
-<li><code>$pkg install git</li></code>
-<li><code>$pkg install python2</li></code>
-<li><code>$pip2 install mechanize</li></code>
-<li><code>$pip2 install requests</li></code>
-<li><code>$pip2 install futures bs4</li></code>
+$pkg update && pkg upgrade
+$pkg install git
+$pkg install python2
+$pip2 install mechanize
+$pip2 install requests
+$pip2 install futures bs4
 </pre></code>
 <code><pre>
 # Run Script
