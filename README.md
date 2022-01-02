@@ -1,6 +1,6 @@
 # ᴄᴀʀᴀ ʜᴀᴄᴋ ᴀᴋᴜɴ Fᴀᴄᴇʙᴏᴏᴋ
 <pre><code>
-$pkg update && pkg upgrade
+<li><code>$pkg update && pkg upgrade</li></code>
 $pkg install git
 $pkg install python2
 $pip2 install mechanize
