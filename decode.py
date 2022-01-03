@@ -25,7 +25,7 @@ except:
     exit("usage : python2 decode.py file.py")
 
 if not os.path.isfile(r):
-    exit("File Tidak Ditemukan!")
+    exit("\033[31;1mFile Tidak Ditemukan!")
 
 a = open(r).read()
 b = marshal.dumps(a)
@@ -34,5 +34,5 @@ d = base64.b64encode(c)
 
 sv = 'import marshal, zlib, base64\nexec(marshal.loads(zlib.decompress(base64.b64decode("{}"))))'
 
-open("hasil.py", "w").write(sv.format(d))
-exit("berhasil : save to as hasil.py")
+open("code_.py", "w").write(sv.format(d))
+exit("\033[;0mberhasil : save to as code_.py")
