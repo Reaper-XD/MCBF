@@ -8,7 +8,7 @@ print "\n\33[30;1m__________________________"
 try:
     r = sys.argv[1]
 except:
-    exit("usage : python2 decode.py file.py")
+    exit("\33[;0musage : python2 decode.py file.py")
 
 if not os.path.isfile(r):
     exit("File Tidak Ditemukan!")
