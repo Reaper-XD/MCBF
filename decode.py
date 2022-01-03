@@ -22,7 +22,7 @@ print "%s__________________________"%(K)
 try:
     r = sys.argv[1]
 except:
-    exit("%susage : python2 decode.py file.py")%(P)
+    exit("usage : python2 decode.py file.py")
 
 if not os.path.isfile(r):
     exit("File Tidak Ditemukan!")
