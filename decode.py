@@ -1,6 +1,10 @@
 # module
 import marshal, zlib, base64, os, sys
-
+os.system("clear")
+os.system("figlet CODE")
+print "\n\33[30;1m__________________________"
+print "\n\33[1;33m(\33[31;1mI\33[1;33m)\33[32;1mWELCOME TO MY SCRIPT\33[1;33m(\33[31;1mI\33[1;33m)"
+print "\n\33[30;1m__________________________"
 try:
     r = sys.argv[1]
 except:
