@@ -18,13 +18,13 @@ my_color = [
 HJ, HT, K, KT, B, BM, M, HJT, U, P ]
 warna = random.choice(my_color)
 os.system('clear')
-print "________________________"
-print "|| Coded By Reza Gans ||"
-print "-------------------------"
-print "--=Encode Base 64 File=--"
-print "*************************"
+print "%s________________________"%(HT)
+print "%s|| %sCoded %sBy %sReza Gans %s||"%(BM,M,KT,P,BM)
+print "%s________________________"%(HT)
+print "%s--%s=%sEncode Base 64 File%s=%s--"%(M,HJT,KT,HJT,M)
+print "%s*************************"%(K)
 
-file = raw_input('Filenya : ')
+file = raw_input('%sFilenya :$s ')%(BM,HT)
 
 baca = open(file, 'r').read()
 
