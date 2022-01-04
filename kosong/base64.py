@@ -24,7 +24,7 @@ print "%s________________________"%(HT)
 print "%s--%s=%sEncode Base 64 File%s=%s--"%(M,HJT,KT,HJT,M)
 print "%s*************************"%(K)
 
-file = raw_input('%sFilenya :$s ')%(BM,HT)
+file = raw_input('\33[1;33mFilenya \33[30;1m: ')
 
 baca = open(file, 'r').read()
 
