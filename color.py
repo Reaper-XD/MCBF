@@ -16,6 +16,8 @@ my_color = [
 HJ, HT, K, KT, B, BM, M, HJT, U, P ]
 warna = random.choice(my_color)
 def menu():
+   os.system("clear")
+   os.system("xdg-open https://www.youtube.com/watch?v=NWZv524Yl74")
    print "%s__________________________________"%(KT)
    print "%s(%sI%s) %sWARNA-WARNA RANDOM         %s(%sI%s)"%(HJT,M,HJT,HT,HJT,M,HJT)
    print "%s__________________________________"%(KT)
