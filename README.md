@@ -21,4 +21,4 @@ $python2 MCBF.py
 <a href="https://github.com/Reaper-XD/ScriptSix" rel="nofollow noopener" target="_script">ScriptSix</a>
 ### Catatan
 Gunakan Lah dengan Bijak.Kalau Ada Masalah Admin Tidak Bertanggung Jawab!
-<b>🔰🔰🔰🔰</b> </br></b></br> <br>[[![Github](https://img.shields.io/badge/Github-[REZA ALFAUZAN]-blue?style=flat-square&logo=GITHUBlogoColor=blue&labelColor=blue)](https://github.com/ReaperXD277)]<b/>
+<b>🔰🔰🔰🔰</b> </br></b></br> <br>[[![Github](https://img.shields.io/badge/Github-[ REZA ALFAUZAN ]-blue?style=flat-square&logo=GITHUBlogoColor=blue&labelColor=blue)](https://github.com/ReaperXD277)]<b/>
