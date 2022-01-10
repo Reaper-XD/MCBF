@@ -81,6 +81,14 @@ def exe():
         sys.stdout.flush()
         time.sleep(1)
 
+# Ngentot!!
+matikw = '''
+      \33[1;33m########## ###### ###  ### ########  ###     ###
+     \33[1;33m########## ##  ## ### ###  ###       ####    ###
+        \33[30;1m###    ##  ## #######  ######### ######  ###
+       \33[1;33m###    ##  ## ### ###  ###       ### ### ###
+      \33[1;33m###    ###### ###  ### ######### ###   #####     \33[36;1mv 2.0\33[;0m
+'''
 # Logo banner
 logo = '''\033[0;93m    __  ________         ___  ____
 \033[0;93m   /  |/  / ___/ ____   / _ )/ __/ ® \033[0;95m|| \033[1;96mCreated By Reza Alfauzan
@@ -100,7 +108,7 @@ def hasil(ok,cp):
 #masuk token
 def rezaxd():
     os.system('clear')
-    print logo
+    print matikw
     print (' %s*%s tools ini menggunakan login token facebook.\n %s*%s apakah kamu sudah tau cara mendapatkan token facebook?\n %s*%s ketik %sopen%s untuk mendapatkan token facebook.'%(O,N,O,N,O,N,H,N))
     kontol = raw_input('\n %s[%s?%s] Token :%s '%(N,M,N,H))
     if kontol in ('open', 'Open', 'OPEN'):
