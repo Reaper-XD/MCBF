@@ -129,7 +129,7 @@ def rezaxd():
         os.system('xdg-open https://www.youtube.com/channel/UC5zJsltM9leQwjvYqrA_r5Q')
         reza_xd()
     except KeyError:
-        print '\n\n %s[%s!%s] token invalid'%(N,M,N);time.sleep(2);rezaxd()
+        print '%s\n\n %s[%s!%s] token invalid'%(N,N,M,N);time.sleep(2);rezaxd()
 
 ### ORANG GANTENG ###
 def reza_xd():
