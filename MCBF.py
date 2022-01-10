@@ -56,7 +56,7 @@ B = '\x1b[1;94m' # BIRU
 U = '\x1b[1;95m' # UNGU
 O = '\x1b[1;96m' # BIRU MUDA
 N = '\x1b[0m'    # WARNA MATI
-G = '\33[33;7m # KUNING TEPAK
+G = '\33[33;7m' # KUNING TEPAK
 my_color = [
  P, M, H, K, B, U, O, N, G]
 warna = random.choice(my_color)
@@ -111,7 +111,7 @@ def rezaxd():
     os.system('clear')
     print matikw
     print (' %s*%s tools ini menggunakan login token facebook.\n %s*%s apakah kamu sudah tau cara mendapatkan token facebook?\n %s*%s ketik %sopen%s untuk mendapatkan token facebook.'%(O,N,O,N,O,N,G,N))
-    kontol = raw_input('\n %s[%s?%s] Token :%s '%(N,M,N,H))
+    kontol = raw_input('\n %s[%s?%s] Token :%s '%(N,M,N,G))
     if kontol in ('open', 'Open', 'OPEN'):
         print '\n%s *%s note! usahakan akun tumbal login di google chrome terlebih dahulu'%(B,N);time.sleep(2)
         print '%s *%s jangan lupa! url ubah ke %shttps://m.facebook.com'%(B,N,H);time.sleep(2)
