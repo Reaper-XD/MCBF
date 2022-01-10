@@ -4,7 +4,7 @@ import marshal, zlib, base64, os, sys
 try:
   r = sys.argv[1]
 except:
-  exit("Caranya : python2 marshal.py file.py")
+  exit("Caranya : python2 Encode.py file.py")
 
 if not os.path.isfile(r):
   exit("File Tidak Ditemukan!!")
