@@ -1,3 +1,6 @@
+<p align="left">
+<a href="#"><img title="Made in Indonesia" src="https://img.shields.io/badge/MADE%20IN-INDONESIAN-yellow?colorA=%23ff00f0&colorB=%2301e40&style=for-the-badge"></a>
+</p>
 # ᴄᴀʀᴀ ʜᴀᴄᴋ ᴀᴋᴜɴ Fᴀᴄᴇʙᴏᴏᴋ
 <pre><code>
 $pkg update && pkg upgrade
