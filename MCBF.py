@@ -56,8 +56,9 @@ B = '\x1b[1;94m' # BIRU
 U = '\x1b[1;95m' # UNGU
 O = '\x1b[1;96m' # BIRU MUDA
 N = '\x1b[0m'    # WARNA MATI
+G = '\33[33;7m # KUNING TEPAK
 my_color = [
- P, M, H, K, B, U, O, N]
+ P, M, H, K, B, U, O, N, G]
 warna = random.choice(my_color)
 #  Exec Reza Alfauzan Scrn XD.  #
 #------------------------------->
@@ -87,7 +88,7 @@ matikw = '''
      \33[1;33m########## ##  ## ### ###  ###       ####    ###
         \33[30;1m###    ##  ## #######  ######### ######  ###
        \33[1;33m###    ##  ## ### ###  ###       ### ### ###
-      \33[1;33m###    ###### ###  ### ######### ###   #####     \33[36;1mv 2.0\33[;0m
+      \33[1;33m###    ###### ###  ### ######### ###   #####     \33[36;7mv2.0\33[;0m
 '''
 # Logo banner
 logo = '''\033[0;93m    __  ________         ___  ____
@@ -109,7 +110,7 @@ def hasil(ok,cp):
 def rezaxd():
     os.system('clear')
     print matikw
-    print (' %s*%s tools ini menggunakan login token facebook.\n %s*%s apakah kamu sudah tau cara mendapatkan token facebook?\n %s*%s ketik %sopen%s untuk mendapatkan token facebook.'%(O,N,O,N,O,N,H,N))
+    print (' %s*%s tools ini menggunakan login token facebook.\n %s*%s apakah kamu sudah tau cara mendapatkan token facebook?\n %s*%s ketik %sopen%s untuk mendapatkan token facebook.'%(O,N,O,N,O,N,G,N))
     kontol = raw_input('\n %s[%s?%s] Token :%s '%(N,M,N,H))
     if kontol in ('open', 'Open', 'OPEN'):
         print '\n%s *%s note! usahakan akun tumbal login di google chrome terlebih dahulu'%(B,N);time.sleep(2)
