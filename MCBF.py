@@ -78,7 +78,7 @@ def jalan(z):
 def exe():
     titik = ['\x1b[1;92m.   ', '\x1b[1;95m..  ', '\x1b[1;96m... ','\x1b[1;95m.   ', '\x1b[1;93m..  ', '\x1b[1;96m... ']
     for x in titik:
-        print '\r %s[%s+%s] menghapus token %s'%(N,M,N,x),
+        print '\r [+] menghapus token %s'%(x),
         sys.stdout.flush()
         time.sleep(1)
 
