@@ -1,4 +1,4 @@
-mport os,sys,time,requests,concurrent.futures,bs4,random
+mport os,sys,time,random
 
 # MY COLOR
 HJ = "\33[0;32m"
