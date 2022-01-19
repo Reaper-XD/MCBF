@@ -116,6 +116,7 @@ def hasil(ok,cp):
 def rezaxd():
     os.system('clear')
     detik()
+    os.system("clear")
     print matikw
     print (' %s*%s tools ini menggunakan login token facebook.\n %s*%s apakah kamu sudah tau cara mendapatkan token facebook?\n %s*%s ketik %sopen%s untuk mendapatkan token facebook.'%(O,N,O,N,O,N,G,N))
     kontol = raw_input('\n %s[%s?%s] Token : %s'%(N,M,N,G))
