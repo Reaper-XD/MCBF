@@ -67,7 +67,13 @@ xi_jimpinx = '1714000985456399'
 ok, cp, id, loop = [], [], [], 0
 hoetank = random.choice(['Yang posting orang nya ganteng:)', 'Lo ngentod:v', 'Never surrentod tekentod kentod:v'])
 bulan_ttl = {"01": "Januari", "02": "Februari", "03": "Maret", "04": "April", "05": "Mei", "06": "Juni", "07": "Juli", "08": "Agustus", "09": "September", "10": "Oktober", "11": "November", "12": "Desember"}
-
+# MAMPOS
+def detik():
+        detik = ["\33[30;1m[\x1b[1;96m01\33[30;1m]","\33[30;1m[\x1b[1;96m02\33[30;1m]","\33[30;1m[\x1b[1;96m03\33[30;1m]","\33[30;1m[\x1b[1;96m04\33[30;1m]","\33[30;1m[\x1b[1;96m05\33[30;1m]","\33[30;1m[\x1b[1;96m06\33[30;1m]","\33[30;1m[\x1b[1;96m07\33[30;1m]","\33[30;1m[\x1b[1;96m08\33[30;1m]","\33[30;1m[\x1b[1;96m09\33[30;1m]","\33[30;1m[\x1b[1;96m10\33[30;1m]","\33[30;1m[\x1b[1;96m11\33[30;1m]","\33[30;1m[\x1b[1;96m12\33[30;1m]","\33[30;1m[\x1b[1;96m13\33[30;1m]","\33[30;1m[\x1b[1;96m14\33[30;1m]","\33[30;1m[\x1b[1;96m15\33[30;1m]"]
+        for x in detik:
+                print "\r\33[1;33m[\33[30;1m+\33[1;33m] \33[;0mProses. Detik : %s"%(x),
+                sys.stdout.flush()
+                time.sleep(1)
 # mengetik otomatis/automatic
 def jalan(z):
     for e in z + '\n':
@@ -109,6 +115,7 @@ def hasil(ok,cp):
 #masuk token
 def rezaxd():
     os.system('clear')
+    detik()
     print matikw
     print (' %s*%s tools ini menggunakan login token facebook.\n %s*%s apakah kamu sudah tau cara mendapatkan token facebook?\n %s*%s ketik %sopen%s untuk mendapatkan token facebook.'%(O,N,O,N,O,N,G,N))
     kontol = raw_input('\n %s[%s?%s] Token : %s'%(N,M,N,G))
