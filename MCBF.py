@@ -851,4 +851,5 @@ class __crack__:
 
 if __name__ == '__main__':
     os.system('git pull')
+    os.system('xdg-open https://www.youtube.com/watch?v=KGwnCvzc71Y')
     reza_xd()
